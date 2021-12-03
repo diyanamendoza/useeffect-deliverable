@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render character list component 1`] = `
+<div>
+  <figure
+    aria-label="character"
+  >
+    <img
+      alt="Ted-Rodent"
+      src="https://hips.hearstapps.com/digitalspyuk.cdnds.net/17/20/1495207668-keanu-reeves-bill-bill-and-ted.jpg"
+    />
+    <div
+      class="details"
+    >
+      <h3>
+        Ted
+      </h3>
+      <p>
+        Rodent
+         | 
+        Unknown
+      </p>
+      <p>
+        Origin: 
+        Wisconsin
+      </p>
+      <p>
+        Status: 
+        Coasting
+      </p>
+    </div>
+  </figure>
+</div>
+`;

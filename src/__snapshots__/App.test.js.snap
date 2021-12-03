@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<div>
+  <div
+    class="landing-page"
+  >
+    <header>
+      <img
+        alt="Rick and Morty logo"
+        src="./Rick_and_Morty_logo.png"
+      />
+      <h1>
+        Character DB
+      </h1>
+    </header>
+    <main>
+      <div
+        class="controls-container"
+      >
+        <form
+          aria-label="search"
+        >
+          <label
+            for="search"
+          >
+            Search by Name
+            <input
+              type="text"
+              value=""
+            />
+          </label>
+          <button
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+        <div
+          class="filters"
+        >
+          <div>
+            <label>
+              Filter by 
+              Species
+              <select>
+                <option
+                  value=""
+                >
+                  all
+                </option>
+                <option
+                  value="human"
+                >
+                  human
+                </option>
+                <option
+                  value="alien"
+                >
+                  alien
+                </option>
+                <option
+                  value="unknown"
+                >
+                  unknown
+                </option>
+              </select>
+            </label>
+          </div>
+          <div>
+            <label>
+              Filter by 
+              Status
+              <select>
+                <option
+                  value=""
+                >
+                  all
+                </option>
+                <option
+                  value="alive"
+                >
+                  alive
+                </option>
+                <option
+                  value="dead"
+                >
+                  dead
+                </option>
+                <option
+                  value="unknown"
+                >
+                  unknown
+                </option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div>
+          <label>
+            Sort
+            <select>
+              <option
+                value=""
+              />
+              <option
+                value="a-z"
+              >
+                a-z
+              </option>
+              <option
+                value="z-a"
+              >
+                z-a
+              </option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <h3>
+         Loading 
+      </h3>
+    </main>
+  </div>
+</div>
+`;
