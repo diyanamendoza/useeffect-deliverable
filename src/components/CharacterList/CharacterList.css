@@ -1,0 +1,16 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    width: 800px;
+}
+
+li {
+    list-style-type: none;
+    width: 400px;
+}
+
+img {
+    border-radius: 30px;
+}
